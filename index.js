@@ -6,6 +6,7 @@ import Polyline from './elements/Polyline';
 import Line from './elements/Line';
 import Svg from './elements/Svg';
 import Path from './elements/Path';
+import Shape from './elements/Shape';
 import G from './elements/G';
 import Text from './elements/Text';
 import Use from './elements/Use';
@@ -35,7 +36,8 @@ export {
     LinearGradient,
     RadialGradient,
     Stop,
-    ClipPath
+    ClipPath,
+    Shape
 };
 
 export default Svg;
